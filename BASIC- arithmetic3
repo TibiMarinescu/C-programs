@@ -1,0 +1,14 @@
+/* Program */
+#include <stdio.h>
+int main(){
+    int balance;
+    balance = 50;
+    printf("I have %d dollars in my account\n", balance);
+    //expence of 40 dollars
+    balance = balance - 40;
+    printf("I have %d dollars in my account\n", balance);
+    //add 20 dollars in your account
+    balance = balance + 20;
+    printf("I have %d dollars in my account\n", balance);
+    return 0;
+}
