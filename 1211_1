@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+//Prototype
+int sum3(int, int, int);
+
+int main() {
+    int answer;
+    answer = sum3(6,7,8);
+    return 0;
+}
+
+int sum3(int a, int b, int c){
+    int result = a + b + c;
+    return result;
+}
